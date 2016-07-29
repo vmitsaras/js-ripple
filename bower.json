@@ -1,0 +1,23 @@
+{
+  "name": "js-ripple",
+  "version": "1.0.0",
+  "main": [
+    "dist/_js/js-ripple.pkgd.js",
+    "dist/_css/prefixed/js-ripple.css"
+  ],
+  "ignore": [
+    "**/.*"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "js-utilities": "*"
+  },
+  "authors": [
+    "Vasileios Mitsaras"
+  ],
+  "keywords": [
+    "material",
+    "ripple"
+  ],
+  "license": "MIT"
+}

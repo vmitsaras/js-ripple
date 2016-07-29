@@ -1,0 +1,25 @@
+/* line 6, ../../src/js-ripple.scss */
+.o-ripple {
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  pointer-events: none;
+  transform-origin: 50%;
+  backface-visibility: hidden;
+}
+/* line 16, ../../src/js-ripple.scss */
+.o-ripple.is-animating {
+  opacity: 1;
+  animation: ripple 0.5s linear;
+}
+
+@keyframes ripple {
+  to {
+    opacity: 0;
+    transform: scale(8);
+  }
+}
+
+/*# sourceMappingURL=js-ripple.css.map */
